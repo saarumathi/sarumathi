@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conuio.h>
+void main()
+procedureHanoi(n:integer;source,dest,by:char);
+begin
+if(n=1)
+writeln("move the plate from",source,'to',dest)
+printf("move the plate form");
+else begin
+Hanoi(n-1,source,by,dest);
+writeln("move the plate form',source,'to',dest);
+printf("move from source to destination");
+Hanoi(n-1,by,dest,source);
+end;
+getch();
